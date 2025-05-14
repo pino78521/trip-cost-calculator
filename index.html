@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trip Cost Comparison</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>🚗 Trip Cost Comparison Calculator</h2>
+  <label>Total trip miles: <input type="number" id="miles" /></label><br><br>
+  <label>Rental days: <input type="number" id="rentalDays" /></label><br><br>
+  <label>Rental daily rate ($): <input type="number" id="rentalRate" /></label><br><br>
+  <label>Your car’s cost per mile ($): <input type="number" id="yourCostPerMile" /></label><br><br>
+  <button onclick="calculateTripCost()">Calculate</button>
+
+  <div id="results" style="margin-top: 20px;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
